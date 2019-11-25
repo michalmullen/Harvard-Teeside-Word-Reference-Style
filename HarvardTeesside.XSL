@@ -7,9 +7,8 @@
     <general>
       <stylename>Harvard - Teesside</stylename>
       <version>2017.10.10</version>
-      <description>An implementation of the Harvard reference style based on the description by the University of Hertfordshire.</description>
-      <URL>https://github.com/cdemi/Harvard-Hertfordshire-Word-Reference-Style</URL>
-      <author>Christopher Demicoli (christopher.demicoli@outlook.com) and Natasha Fenech (natashafenech@gmail.com)</author>
+      <description>An implementation of the Harvard reference style based on the description by the University of Teeside.</description>
+      <author>Andrew Mullen (mitchell.mullen@praguecollege.cz), Christopher Demicoli (christopher.demicoli@outlook.com) and Natasha Fenech (natashafenech@gmail.com)</author>
       <comments>
         Based on http://www.studynet1.herts.ac.uk/ptl/common/LIS.nsf/lis/busharvard
       </comments>
@@ -130,7 +129,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2%{ (%Year|"n.d"%{%YearSuffix%})}}{ '%Title|ShortTitle%'{. &lt;i&gt;%PeriodicalTitle%&lt;/i&gt;}}{ &lt;i&gt;%PeriodicalTitle%&lt;/i&gt;}{ ({{%Day% }%Month:s% }%Year%)}{, {%Day% }%Month:s%}{, %Pages:p. :pp. %}{. Available at: %URL%{ [Accessed: {{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%]}}.</format>
+          <format>{%Author:2%{ (%Year|"n.d"%{%YearSuffix%})}}{ '%Title|ShortTitle%'{. &lt;i&gt;%PeriodicalTitle%&lt;/i&gt;}}{ &lt;i&gt;%PeriodicalTitle%&lt;/i&gt;}{ ({{%Day% }%Month:s% }%Year%)}{, {%Day% }%Month:s%}{, %Pages:pp. :pp. %}{. Available at: %URL%{ [Accessed: {{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%]}}.</format>
         </column>
         <sortkey>{%Author:0|Title|ShortTitle%}{ %Year%}{ %Title|ShortTitle%}</sortkey>
       </source>
@@ -154,7 +153,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2%{ (%Year|"n.d"%{%YearSuffix%})}}{ &lt;i&gt;%Title|ShortTitle%&lt;/i&gt;{ (%Year%{%YearSuffix%})}}{. %ConferenceName%}{. %City%}{. %Pages:p. :pp. %}{ %Publisher%}.{ Available at: %URL:l%}{ [Accessed: {{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%].}</format>
+          <format>{%Author:2%{ (%Year|"n.d"%{%YearSuffix%})}}{ &lt;i&gt;%Title|ShortTitle%&lt;/i&gt;{ (%Year%{%YearSuffix%})}}{. %ConferenceName%}{. %City%}{. %Pages:pp. :pp. %}{ %Publisher%}.{ Available at: %URL:l%}{ [Accessed: {{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%].}</format>
         </column>
         <sortkey>{%Author:0|Title|ShortTitle%}{ %Year%}{ %Title|ShortTitle%}</sortkey>
       </source>
@@ -170,7 +169,7 @@
         <column id="1">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:2%{ (%Year|"n.d"%{%YearSuffix%}) }}{ '%Title|ShortTitle%'{. &lt;i&gt;%JournalName%&lt;/i&gt;}}{ &lt;i&gt;%JournalName%&lt;/i&gt;}{. %Volume%}{(%Issue%)}{ %Month:s%{ %Year%}}{. %Pages:p. :pp. %}{. %City%{: %Publisher%}}{. %Publisher%}{. Available at: %URL:l|StandardNumber%{ [Accessed: {{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%]}}.</format>
+          <format>{%Author:2%{ (%Year|"n.d"%{%YearSuffix%}) }}{ '%Title|ShortTitle%'{. &lt;i&gt;%JournalName%&lt;/i&gt;}}{ &lt;i&gt;%JournalName%&lt;/i&gt;}{. %Volume%}{(%Issue%)}{ %Month:s%{ %Year%}}{. %Pages:pp. :pp. %}{. %City%{: %Publisher%}}{. %Publisher%}{. Available at: %URL:l|StandardNumber%{ [Accessed: {{%DayAccessed% }%MonthAccessed:s% }%YearAccessed%]}}.</format>
         </column>
         <sortkey>{%Author:0|Title|ShortTitle%}{ %Year%}{ %Title|ShortTitle%}</sortkey>
       </source>
